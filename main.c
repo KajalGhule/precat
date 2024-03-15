@@ -38,12 +38,12 @@ int main() {
                 break;
             case 1:
                 printf("\n Add New Batch\n");
-                read_Batch_data();
+                
                 add_Batch();
                 break;
             case 2:
                 printf("\n See All Batches\n");
-                read_Batch_data();
+                
                 print_Batch();
                 break;
             case 3:
@@ -52,13 +52,12 @@ int main() {
                 new_Batch_Schedule();
                 break;
             case 4:
-                // printf("\ninside case 4\n");
+                printf("\nFinal Scheduling\n");
                 read_line_count();
                 finalSchedule();
                 break;
             case 5:
-                read_line_count();
-                // printf("count : %d\n",count); 
+                 
                 break;   
             default:
                 printf("Something Wrong\n");
