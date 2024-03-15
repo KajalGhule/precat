@@ -33,7 +33,8 @@ int result =datecmp(startBatch.startDate,startBatch.endDate);
     }
 
 
-
+//
+I want to add a batch in 1] randam date, 2] same date but different location to check faculty clashh..
 
 
 
